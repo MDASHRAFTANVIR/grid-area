@@ -100,7 +100,7 @@ nav ul a {
         "aside ad"
         "footer footer"
         ;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     body {
         width: 90%;
