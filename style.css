@@ -84,7 +84,6 @@ nav ul a {
     grid-template-areas: 
     "header header  header"
     "nav    main     aside   "
-
     "nav    main     ad"
     "footer footer footer"
     ;
@@ -106,4 +105,16 @@ nav ul a {
     
 }
 
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .all-content {
+        grid-template-areas: 
+        "header header"
+        "nav  main"
+        "nav  main"
+        "aside ad"
+        "footer  footer"
+        ;
+        grid-template-columns: 1fr 2fr;
+    }
+}
 
