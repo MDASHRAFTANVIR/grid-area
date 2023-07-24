@@ -102,6 +102,10 @@ nav ul a {
         ;
         grid-template-columns: 1fr;
     }
+    body {
+        width: 90%;
+        margin-left: 5%;
+    }
     
 }
 
