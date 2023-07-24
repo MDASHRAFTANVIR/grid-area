@@ -38,7 +38,6 @@ nav ul a {
     border-radius: 5px;
 }
 .nav {
-    grid-area: nav;
     margin-bottom: 20px;
     padding:20px;
     background-color: coral;
@@ -79,6 +78,17 @@ nav ul a {
     text-align: center;
 }
 
+
+/* Before the parent element such as all-content we have to declare every child section with grid-area. Such as: 
+
+.header {
+    grid-area: header;
+}
+.nav {
+    grid-area: nav;
+}
+
+*/
 .all-content {
     display: grid;
     grid-template-areas: 
